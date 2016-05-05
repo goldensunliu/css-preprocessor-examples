@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "stylus-import": "stylus import/style.styl -o out/"
+    "stylus-import": "stylus import/style.styl",
+    "stylus-extend": "stylus extend/style.styl"
   },
   "repository": {
     "type": "git",

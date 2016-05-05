@@ -4,3 +4,4 @@ examples to should with great power comes great responsibilities
 commands:
 
 `npm run stylus-import`
+`npm run stylus-extend`

@@ -1,0 +1,18 @@
+.ThisThingThatis80PercentOfWhatIwant
+  color: red
+  display: flex
+  @media screen and (max-width: 640px)
+    color: green
+  > div
+    flex 2
+  > .veryUniqueClass
+    width 30px
+
+.MyClass
+  @extend .ThisThingThatis80PercentOfWhatIwant
+  > .mystuff
+    width 20px
+
+  > .Child
+    display flex
+    flex-direction column
