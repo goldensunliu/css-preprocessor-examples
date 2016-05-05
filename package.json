@@ -1,0 +1,26 @@
+{
+  "name": "css-preprocessor-examples",
+  "version": "1.0.0",
+  "description": "examples to should the catch 22s for some preprocessor concepts on the actuall output",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylus-import": "stylus import/style.styl -o out/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldensunliu/css-preprocessor-examples.git"
+  },
+  "keywords": [
+    "stylus"
+  ],
+  "author": "Sitian Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldensunliu/css-preprocessor-examples/issues"
+  },
+  "homepage": "https://github.com/goldensunliu/css-preprocessor-examples#readme",
+  "dependencies": {
+    "stylus": "^0.54.5"
+  }
+}
